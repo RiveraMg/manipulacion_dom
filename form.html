@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-in">
+            <form id="userForm">
+                <h1>Formulario usuario</h1>
+                <input type="text" id="username" name="username" placeholder="Nombre" required>
+                <input type="number" id="age" name="age" placeholder="Edad" required>
+                <button type="button" id="saveBtn">Guardar datos</button>
+                <button type="button" id="clearBtn">Limpiar datos</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido!</h1>
+                    <p>Queremos conocerte mejor!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="output"></div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
