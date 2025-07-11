@@ -17,6 +17,7 @@ Este proyecto es una aplicación web desarrollada en HTML, CSS y JavaScript que 
 ```
 📁 proyecto-manipulacion-dom/
 ├── form.html         # Interfaz del formulario
+├── READMI.md
 ├── style.css         # Estilos visuales
 └── app.js            # Lógica en JavaScript
 ```
